@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import PropTypes from 'prop-types';
+import ListaDeCategorias from './ListaDeCategorias';
 
 class Home extends Component {
   handleOnClick = () => {
@@ -27,6 +28,7 @@ class Home extends Component {
         >
           Ir para o carrinho
         </button>
+        <ListaDeCategorias />
       </div>
     );
   }
